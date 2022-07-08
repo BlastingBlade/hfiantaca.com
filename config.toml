@@ -22,7 +22,7 @@ paginate = 10
 
   [params.logo]
     logoMark = ">"
-    logoText = "let page = Page::new();"
+    logoText = " "
     logoCursorColor = "#82aaff"
     logoCursorAnimate = "2s"
     logoHomeLink = "/"
