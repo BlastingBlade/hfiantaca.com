@@ -1,0 +1,65 @@
+baseURL = 'https://hfiantaca.com/'
+title = 'Henry Fiantaca'
+languageCode = 'en-us'
+theme = 'hello-friend-ng'
+paginate = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  homeSubtitle = "This person's public interface"
+  description = "Henry Fiantaca -- This person's public interface"
+  keywords = "homepage, blog"
+  images = [""]
+
+  disableReadOtherPosts = true
+
+  #customCSS = []
+  #customJS  = []
+
+  [params.logo]
+    logoMark = ">"
+    logoText = "let page = Page::new();"
+    logoCursorColor = "#82aaff"
+    logoCursorAnimate = "2s"
+    logoHomeLink = "/"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/BlastingBlade"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:hfiantaca@gmail.com"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/"
+
+  [params.footer]
+    trademark = true
+    author = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+    ]
+
+PygmentsCodeFences = true
+PygmentsStyle = 'palenight'
+
+enableEmoji = true
+
+[author]
+  name = 'Henry Fiantaca'
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[languages]
+  [languages.en]
+    subtitle  = "This person's public interface"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
